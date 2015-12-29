@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "esh-help" "esh-help.el" (22050 30872 0 0))
+;;;### (autoloads nil "esh-help" "esh-help.el" (22146 21430 0 0))
 ;;; Generated autoloads from esh-help.el
 
 (autoload 'setup-esh-help-eldoc "esh-help" "\
