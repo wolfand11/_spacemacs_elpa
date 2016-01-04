@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "hy-mode" "hy-mode.el" (22083 29221 0 0))
+;;;### (autoloads nil "hy-mode" "hy-mode.el" (22154 31274 0 0))
 ;;; Generated autoloads from hy-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.hy\\'" . hy-mode))

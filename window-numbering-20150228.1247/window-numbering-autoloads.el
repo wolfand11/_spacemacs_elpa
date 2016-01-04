@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "window-numbering" "window-numbering.el" (22050
-;;;;;;  29496 0 0))
+;;;### (autoloads nil "window-numbering" "window-numbering.el" (22154
+;;;;;;  31474 0 0))
 ;;; Generated autoloads from window-numbering.el
 
 (defvar window-numbering-mode nil "\

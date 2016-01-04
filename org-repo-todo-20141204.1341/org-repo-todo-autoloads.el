@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "org-repo-todo" "org-repo-todo.el" (22077 56327
+;;;### (autoloads nil "org-repo-todo" "org-repo-todo.el" (22154 31429
 ;;;;;;  0 0))
 ;;; Generated autoloads from org-repo-todo.el
 

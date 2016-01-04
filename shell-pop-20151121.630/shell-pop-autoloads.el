@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "shell-pop" "shell-pop.el" (22146 22425 0 0))
+;;;### (autoloads nil "shell-pop" "shell-pop.el" (22154 31461 0 0))
 ;;; Generated autoloads from shell-pop.el
 
 (defvar shell-pop-universal-key nil "\

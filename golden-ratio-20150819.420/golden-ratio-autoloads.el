@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "golden-ratio" "golden-ratio.el" (22050 29333
+;;;### (autoloads nil "golden-ratio" "golden-ratio.el" (22154 31234
 ;;;;;;  0 0))
 ;;; Generated autoloads from golden-ratio.el
 

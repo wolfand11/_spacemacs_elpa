@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("eval-sexp-fu.el") (22050 29105 492557
+;;;### (autoloads nil nil ("eval-sexp-fu.el") (22154 31153 497356
 ;;;;;;  0))
 
 ;;;***

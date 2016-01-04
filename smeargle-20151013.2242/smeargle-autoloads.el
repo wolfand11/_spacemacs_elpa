@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "smeargle" "smeargle.el" (22077 56328 0 0))
+;;;### (autoloads nil "smeargle" "smeargle.el" (22154 31462 0 0))
 ;;; Generated autoloads from smeargle.el
 
 (autoload 'smeargle-clear "smeargle" "\

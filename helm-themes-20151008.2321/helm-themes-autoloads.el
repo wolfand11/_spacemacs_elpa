@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "helm-themes" "helm-themes.el" (22050 29405
+;;;### (autoloads nil "helm-themes" "helm-themes.el" (22154 31264
 ;;;;;;  0 0))
 ;;; Generated autoloads from helm-themes.el
 

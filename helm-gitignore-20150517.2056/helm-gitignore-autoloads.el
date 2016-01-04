@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "helm-gitignore" "helm-gitignore.el" (22077
-;;;;;;  56198 0 0))
+;;;### (autoloads nil "helm-gitignore" "helm-gitignore.el" (22154
+;;;;;;  31250 0 0))
 ;;; Generated autoloads from helm-gitignore.el
 
 (autoload 'helm-gitignore "helm-gitignore" "\

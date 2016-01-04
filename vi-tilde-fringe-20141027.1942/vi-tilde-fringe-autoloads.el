@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "vi-tilde-fringe" "vi-tilde-fringe.el" (22050
-;;;;;;  29493 0 0))
+;;;### (autoloads nil "vi-tilde-fringe" "vi-tilde-fringe.el" (22154
+;;;;;;  31473 0 0))
 ;;; Generated autoloads from vi-tilde-fringe.el
 
 (autoload 'vi-tilde-fringe-mode "vi-tilde-fringe" "\

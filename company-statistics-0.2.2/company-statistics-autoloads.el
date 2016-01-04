@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "company-statistics" "company-statistics.el"
-;;;;;;  (22146 22424 0 0))
+;;;;;;  (22154 31138 0 0))
 ;;; Generated autoloads from company-statistics.el
 
 (defvar company-statistics-mode nil "\
@@ -32,7 +32,7 @@ configuration.  You can customize this behavior with
 ;;;***
 
 ;;;### (autoloads nil nil ("company-statistics-pkg.el" "company-statistics-tests.el")
-;;;;;;  (22146 22424 112451 0))
+;;;;;;  (22154 31138 651478 0))
 
 ;;;***
 

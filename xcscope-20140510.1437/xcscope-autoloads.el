@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "xcscope" "xcscope.el" (22080 20715 0 0))
+;;;### (autoloads nil "xcscope" "xcscope.el" (22154 31243 0 0))
 ;;; Generated autoloads from xcscope.el
 
 (autoload 'cscope-minor-mode "xcscope" "\
