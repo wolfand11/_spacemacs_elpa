@@ -1,1 +1,0 @@
-(define-package "ace-jump-helm-line" "20151113.1100" "Ace-jump to a candidate in helm window" '((avy "0.2.0") (helm "1.6.3")) :url "https://github.com/cute-jumper/ace-jump-helm-line" :keywords '("extensions"))

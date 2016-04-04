@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "lorem-ipsum" "lorem-ipsum.el" (22154 31321
+;;;### (autoloads nil "lorem-ipsum" "lorem-ipsum.el" (22273 15727
 ;;;;;;  0 0))
 ;;; Generated autoloads from lorem-ipsum.el
 

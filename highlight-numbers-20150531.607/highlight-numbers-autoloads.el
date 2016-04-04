@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "highlight-numbers" "highlight-numbers.el"
-;;;;;;  (22154 31268 0 0))
+;;;;;;  (22273 15700 0 0))
 ;;; Generated autoloads from highlight-numbers.el
 
 (autoload 'highlight-numbers-mode "highlight-numbers" "\

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "helm-cscope" "helm-cscope.el" (22154 31245
+;;;### (autoloads nil "helm-cscope" "helm-cscope.el" (22273 15689
 ;;;;;;  0 0))
 ;;; Generated autoloads from helm-cscope.el
 

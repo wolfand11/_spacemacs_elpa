@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "bracketed-paste" "bracketed-paste.el" (22178
-;;;;;;  4288 0 0))
+;;;### (autoloads nil "bracketed-paste" "bracketed-paste.el" (22273
+;;;;;;  15582 0 0))
 ;;; Generated autoloads from bracketed-paste.el
 
 (autoload 'bracketed-paste-enable "bracketed-paste" "\

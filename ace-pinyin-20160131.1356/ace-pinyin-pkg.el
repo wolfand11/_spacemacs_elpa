@@ -1,0 +1,1 @@
+(define-package "ace-pinyin" "20160131.1356" "Jump to Chinese characters using ace-jump-mode or avy" '((ace-jump-mode "2.0") (avy "0.2.0")) :url "https://github.com/cute-jumper/ace-pinyin" :keywords '("extensions"))

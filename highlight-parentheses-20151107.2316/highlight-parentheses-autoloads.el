@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "highlight-parentheses" "highlight-parentheses.el"
-;;;;;;  (22154 31269 0 0))
+;;;;;;  (22273 15701 0 0))
 ;;; Generated autoloads from highlight-parentheses.el
 
 (autoload 'highlight-parentheses-mode "highlight-parentheses" "\
