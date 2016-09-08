@@ -1,9 +1,9 @@
 ;;; prodigy-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "prodigy" "prodigy.el" (22448 4868 0 0))
+;;;### (autoloads nil "prodigy" "prodigy.el" (22480 49810 0 0))
 ;;; Generated autoloads from prodigy.el
 
 (autoload 'prodigy-add-filter "prodigy" "\
@@ -19,21 +19,21 @@ The old service process is transfered to the new service.
 
 \(fn &rest ARGS)" nil nil)
 
-(put 'prodigy-define-service 'lisp-indent-function 'defun)
+(function-put 'prodigy-define-service 'lisp-indent-function 'defun)
 
 (autoload 'prodigy-define-tag "prodigy" "\
 Define a new tag with ARGS.
 
 \(fn &rest ARGS)" nil nil)
 
-(put 'prodigy-define-tag 'lisp-indent-function 'defun)
+(function-put 'prodigy-define-tag 'lisp-indent-function 'defun)
 
 (autoload 'prodigy-define-status "prodigy" "\
 Define a new status with ARGS.
 
 \(fn &rest ARGS)" nil nil)
 
-(put 'prodigy-define-status 'lisp-indent-function 'defun)
+(function-put 'prodigy-define-status 'lisp-indent-function 'defun)
 
 (autoload 'prodigy-mode "prodigy" "\
 Special mode for prodigy buffers.

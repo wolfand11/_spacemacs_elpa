@@ -5,7 +5,7 @@
 ;; Author: Johan Andersson <johan.rejeep@gmail.com>
 ;; Maintainer: Johan Andersson <johan.rejeep@gmail.com>
 ;; Version: 0.6.0-cvs
-;; Package-Version: 20160428.2354
+;; Package-Version: 20160815.1255
 ;; URL: http://github.com/rejeep/prodigy.el
 ;; Package-Requires: ((s "1.8.0") (dash "2.4.0") (f "0.14.0") (emacs "24"))
 
@@ -643,6 +643,8 @@ has that property and return its value."
 
 If ID is nil, use id stopped, which is the default service
 status."
+  (unless prodigy-status-list
+    (prodigy-define-default-status-list))
   (unless id (setq id 'stopped))
   (-first
    (lambda (status)
