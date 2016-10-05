@@ -1,10 +1,9 @@
 ;;; fringe-helper-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("fringe-helper.el") (22273 15676 367497
-;;;;;;  0))
+;;;### (autoloads nil nil ("fringe-helper.el") (22517 15168 0 0))
 
 ;;;***
 

@@ -1,9 +1,9 @@
 ;;; hungry-delete-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "hungry-delete" "hungry-delete.el" (22273 15703
+;;;### (autoloads nil "hungry-delete" "hungry-delete.el" (22517 15208
 ;;;;;;  0 0))
 ;;; Generated autoloads from hungry-delete.el
 
@@ -56,8 +56,9 @@ Turn on hungry delete mode if the buffer is appropriate.
 \(fn)" nil nil)
 
 (defvar global-hungry-delete-mode nil "\
-Non-nil if Global-Hungry-Delete mode is enabled.
-See the command `global-hungry-delete-mode' for a description of this minor mode.
+Non-nil if Global Hungry-Delete mode is enabled.
+See the `global-hungry-delete-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `global-hungry-delete-mode'.")
@@ -66,7 +67,7 @@ or call the function `global-hungry-delete-mode'.")
 
 (autoload 'global-hungry-delete-mode "hungry-delete" "\
 Toggle Hungry-Delete mode in all buffers.
-With prefix ARG, enable Global-Hungry-Delete mode if ARG is positive;
+With prefix ARG, enable Global Hungry-Delete mode if ARG is positive;
 otherwise, disable it.  If called from Lisp, enable the mode if
 ARG is omitted or nil.
 

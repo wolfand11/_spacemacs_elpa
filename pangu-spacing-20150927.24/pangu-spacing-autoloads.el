@@ -1,9 +1,9 @@
 ;;; pangu-spacing-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "pangu-spacing" "pangu-spacing.el" (22273 20334
+;;;### (autoloads nil "pangu-spacing" "pangu-spacing.el" (22517 15339
 ;;;;;;  0 0))
 ;;; Generated autoloads from pangu-spacing.el
 
@@ -13,8 +13,9 @@ Toggle pangu-spacing-mode
 \(fn &optional ARG)" t nil)
 
 (defvar global-pangu-spacing-mode nil "\
-Non-nil if Global-Pangu-Spacing mode is enabled.
-See the command `global-pangu-spacing-mode' for a description of this minor mode.
+Non-nil if Global Pangu-Spacing mode is enabled.
+See the `global-pangu-spacing-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `global-pangu-spacing-mode'.")
@@ -23,7 +24,7 @@ or call the function `global-pangu-spacing-mode'.")
 
 (autoload 'global-pangu-spacing-mode "pangu-spacing" "\
 Toggle Pangu-Spacing mode in all buffers.
-With prefix ARG, enable Global-Pangu-Spacing mode if ARG is positive;
+With prefix ARG, enable Global Pangu-Spacing mode if ARG is positive;
 otherwise, disable it.  If called from Lisp, enable the mode if
 ARG is omitted or nil.
 

@@ -1,9 +1,9 @@
 ;;; pytest-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "pytest" "pytest.el" (22273 20362 0 0))
+;;;### (autoloads nil "pytest" "pytest.el" (22517 15355 0 0))
 ;;; Generated autoloads from pytest.el
 
 (autoload 'pytest-all "pytest" "\

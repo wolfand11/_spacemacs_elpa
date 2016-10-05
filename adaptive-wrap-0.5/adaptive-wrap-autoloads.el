@@ -1,9 +1,9 @@
 ;;; adaptive-wrap-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "adaptive-wrap" "adaptive-wrap.el" (22273 15513
+;;;### (autoloads nil "adaptive-wrap" "adaptive-wrap.el" (22517 15012
 ;;;;;;  0 0))
 ;;; Generated autoloads from adaptive-wrap.el
 

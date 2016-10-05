@@ -1,10 +1,10 @@
 ;;; stickyfunc-enhance-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "stickyfunc-enhance" "stickyfunc-enhance.el"
-;;;;;;  (22273 20387 0 0))
+;;;;;;  (22517 15371 0 0))
 ;;; Generated autoloads from stickyfunc-enhance.el
 
 (autoload 'semantic-stickyfunc-fetch-stickyline "stickyfunc-enhance" "\

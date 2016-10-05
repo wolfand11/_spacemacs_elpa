@@ -1,15 +1,16 @@
 ;;; fancy-battery-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "fancy-battery" "fancy-battery.el" (22273 15672
+;;;### (autoloads nil "fancy-battery" "fancy-battery.el" (22517 15157
 ;;;;;;  0 0))
 ;;; Generated autoloads from fancy-battery.el
 
 (defvar fancy-battery-mode nil "\
 Non-nil if Fancy-Battery mode is enabled.
-See the command `fancy-battery-mode' for a description of this minor mode.
+See the `fancy-battery-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `fancy-battery-mode'.")

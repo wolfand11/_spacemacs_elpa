@@ -1,9 +1,9 @@
 ;;; gh-md-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "gh-md" "gh-md.el" (22273 15674 0 0))
+;;;### (autoloads nil "gh-md" "gh-md.el" (22517 15164 0 0))
 ;;; Generated autoloads from gh-md.el
 
 (defalias 'gh-md-render-region #'gh-md-convert-region)

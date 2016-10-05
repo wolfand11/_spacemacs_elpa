@@ -1,10 +1,9 @@
 ;;; parent-mode-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("parent-mode.el") (22273 15700 104194
-;;;;;;  0))
+;;;### (autoloads nil nil ("parent-mode.el") (22517 15204 0 0))
 
 ;;;***
 

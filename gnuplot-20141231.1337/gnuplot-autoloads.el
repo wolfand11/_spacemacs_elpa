@@ -1,9 +1,9 @@
 ;;; gnuplot-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "gnuplot" "gnuplot.el" (22273 15681 0 0))
+;;;### (autoloads nil "gnuplot" "gnuplot.el" (22517 15179 0 0))
 ;;; Generated autoloads from gnuplot.el
 
 (autoload 'gnuplot-mode "gnuplot" "\
@@ -83,7 +83,7 @@ Run an inferior Gnuplot process.
 ;;;***
 
 ;;;### (autoloads nil nil ("gnuplot-context.el" "gnuplot-gui.el"
-;;;;;;  "gnuplot-pkg.el") (22273 15681 385474 0))
+;;;;;;  "gnuplot-pkg.el") (22517 15179 0 0))
 
 ;;;***
 

@@ -1,10 +1,10 @@
 ;;; highlight-parentheses-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
 ;;;### (autoloads nil "highlight-parentheses" "highlight-parentheses.el"
-;;;;;;  (22273 15701 0 0))
+;;;;;;  (22517 15206 0 0))
 ;;; Generated autoloads from highlight-parentheses.el
 
 (autoload 'highlight-parentheses-mode "highlight-parentheses" "\
@@ -13,8 +13,9 @@ Minor mode to highlight the surrounding parentheses.
 \(fn &optional ARG)" t nil)
 
 (defvar global-highlight-parentheses-mode nil "\
-Non-nil if Global-Highlight-Parentheses mode is enabled.
-See the command `global-highlight-parentheses-mode' for a description of this minor mode.
+Non-nil if Global Highlight-Parentheses mode is enabled.
+See the `global-highlight-parentheses-mode' command
+for a description of this minor mode.
 Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `global-highlight-parentheses-mode'.")
@@ -23,7 +24,7 @@ or call the function `global-highlight-parentheses-mode'.")
 
 (autoload 'global-highlight-parentheses-mode "highlight-parentheses" "\
 Toggle Highlight-Parentheses mode in all buffers.
-With prefix ARG, enable Global-Highlight-Parentheses mode if ARG is positive;
+With prefix ARG, enable Global Highlight-Parentheses mode if ARG is positive;
 otherwise, disable it.  If called from Lisp, enable the mode if
 ARG is omitted or nil.
 
