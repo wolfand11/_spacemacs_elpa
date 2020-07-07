@@ -1,4 +1,4 @@
-(define-package "pyim-basedict" "20190719.1252" "The default pinyin dict of pyim" 'nil :keywords
+(define-package "pyim-basedict" "20190719.1252" "The default pinyin dict of pyim" 'nil :commit "d499104189a9462cb80f8efd9713e4064dc7093d" :keywords
   '("convenience" "chinese" "pinyin" "input-method" "complete")
   :authors
   '(("Feng Shu" . "tumashu@163.com"))

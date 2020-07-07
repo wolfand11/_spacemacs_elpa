@@ -3,7 +3,7 @@
     (dash "2.8.0")
     (cl-lib "0.5.0")
     (web-completion-data "0.1.0"))
-  :keywords
+  :commit "f0cc9187c9c34f72ad71f5649a69c74f996bae9a" :keywords
   '("html" "company")
   :authors
   '(("Olexandr Sydorchuk" . "olexandr.syd@gmail.com"))

@@ -1,4 +1,4 @@
-(define-package "web-completion-data" "20160318.848" "Shared completion data for ac-html and company-web" 'nil :keywords
+(define-package "web-completion-data" "20160318.848" "Shared completion data for ac-html and company-web" 'nil :commit "c272c94e8a71b779c29653a532f619acad433a4f" :keywords
   '("html" "auto-complete" "company")
   :authors
   '(("Olexandr Sydorchuk" . "olexandr.syd@gmail.com"))
