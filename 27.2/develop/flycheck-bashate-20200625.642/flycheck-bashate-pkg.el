@@ -1,0 +1,2 @@
+;;; Generated package description from flycheck-bashate.el  -*- no-byte-compile: t -*-
+(define-package "flycheck-bashate" "20200625.642" "Integrate bashate with flycheck" '((flycheck "0.24") (emacs "24.4")) :commit "5e673c591d017329d0a07a61dc1223fa98639ee2" :authors '(("Alex Murray" . "murray.alex@gmail.com")) :maintainer '("Alex Murray" . "murray.alex@gmail.com") :url "https://github.com/alexmurray/flycheck-bashate")

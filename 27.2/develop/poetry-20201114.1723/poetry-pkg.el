@@ -1,0 +1,2 @@
+;;; Generated package description from poetry.el  -*- no-byte-compile: t -*-
+(define-package "poetry" "20201114.1723" "Interface to Poetry" '((transient "0.2.0") (pyvenv "1.2") (emacs "25.1")) :commit "d5163fe065239bb7b46ed8b3ff3b85b1f3229af3" :authors '(("Gaby Launay" . "gaby.launay@protonmail.com")) :maintainer '("Gaby Launay" . "gaby.launay@protonmail.com") :keywords '("python" "tools") :url "https://github.com/galaunay/poetry.el")
